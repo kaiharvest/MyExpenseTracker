@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Konfigurasi untuk Tema Terang (Light Theme) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="cardViewStyle">@style/AppCardView</item>
+    </style>
+
+    <style name="Theme.MyExpenseTracker" parent="Base.Theme.MyExpenseTracker" />
+
+    <!-- Style kustom untuk CardView -->
+    <style name="AppCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBackground</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+</resources>

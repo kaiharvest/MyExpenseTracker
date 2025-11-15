@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna dasar untuk tema terang (Light Theme) -->
+    <color name="colorPrimary">#1A237E</color> <!-- Biru Tua -->
+    <color name="colorAccent">#00BFA5</color> <!-- Teal Cerah -->
+    <color name="windowBackground">#F5F5F5</color> <!-- Abu-abu Sangat Terang -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Putih -->
+    <color name="textColorPrimary">#212121</color> <!-- Hitam Pekat -->
+    <color name="textColorSecondary">#757575</color> <!-- Abu-abu Sedang -->
+
+    <!-- Warna dasar untuk tema gelap (Dark Theme) -->
+    <color name="colorPrimaryDark">#C5CAE9</color> <!-- Biru Muda -->
+    <color name="windowBackgroundDark">#121212</color> <!-- Hitam untuk Dark Mode -->
+    <color name="cardBackgroundDark">#1E1E1E</color> <!-- Abu-abu Gelap untuk Kartu -->
+</resources>

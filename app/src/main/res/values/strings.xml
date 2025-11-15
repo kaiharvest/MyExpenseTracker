@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyExpenseTracker</string>
+
+    <string-array name="kategori_pengeluaran">
+        <item>Makanan</item>
+        <item>Transportasi</item>
+        <item>Hiburan</item>
+        <item>Belanja</item>
+        <item>Kesehatan</item>
+        <item>Pendidikan</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

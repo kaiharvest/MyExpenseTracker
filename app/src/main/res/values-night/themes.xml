@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.MyExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Konfigurasi untuk Tema Gelap (Dark Theme) -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackgroundDark</item>
+        <item name="android:textColorPrimary">@color/cardBackground</item> <!-- Putih -->
+        <item name="android:textColorSecondary">@color/textColorSecondary</item> <!-- Abu-abu -->
+        <item name="cardViewStyle">@style/AppCardView.Dark</item>
+    </style>
+
+    <!-- Style kustom untuk CardView di mode gelap -->
+    <style name="AppCardView.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBackgroundDark</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+</resources>
